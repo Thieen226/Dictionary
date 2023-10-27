@@ -1,0 +1,33 @@
+body{
+    background-color: #f2f3f5;
+}
+section{
+    width: 65%;
+    height: 30em;
+    text-align: center;
+    margin: 10em auto 0 ;
+    padding: 0;
+    border: 2px solid #cacaca;
+    border-radius: 1em;
+    background-color: white;
+}
+input{
+    width: 30%;
+    height: 2em;
+    margin-inline: 0 0.5em;
+    outline: none;
+}
+input, #button{
+    margin: 1em 0 0;
+}
+#button{
+    background-color: #4681f4;
+    border: none;
+    border-radius: 0.3em;
+    width: 5em;
+    height: 2.5em;
+}
+#button:hover{
+    background-color: #5783db;
+    cursor: pointer;
+}
