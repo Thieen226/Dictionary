@@ -18,7 +18,7 @@ var vocabs = {
         }
     },
     found: {
-        partOfSpeech: adjective,
+        partOfSpeech: "adjective",
         definition: {
             1: "Having been discovered by chance or unexpectedly.",
             2: "(of a ship) Equipped; Supplied."
@@ -51,3 +51,29 @@ var vocabs = {
         definition: "A sudden and ignominious failure; a fiasco."
     }
 }
+const enterButton = document.getElementById("button");
+const definitionContainer = document.getElementById("definition");
+
+function vocabDefinition(){
+    const inputVocab = document.getElementById("input").value.toLowerCase();
+
+    if(inputVocab == ""){
+        alert("You have to enter your vocabulary");
+    }
+    else if(vocabs.hasOwnProperty(inputVocab)){
+        const container = document.createElement("div");
+        const pElement = document.createElement("p");
+
+        definitionContainer.appendChild(container);
+        container.appendChild(pElement);
+        
+        pElement.innerText = vocabs.;
+    }
+    else{
+        alert("The word is not in this dictionary");
+    }
+    document.getElementById("input").value = "";
+
+}
+enterButton.addEventListener("click", vocabDefinition);
+
