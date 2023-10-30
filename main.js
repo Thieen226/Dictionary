@@ -67,7 +67,7 @@ function vocabDefinition(){
         definitionContainer.appendChild(container);
         container.appendChild(pElement);
         
-        pElement.innerText = vocabs.;
+        pElement.innerText = vocabs.yes.definition[1];
     }
     else{
         alert("The word is not in this dictionary");
