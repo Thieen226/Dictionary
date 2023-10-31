@@ -76,13 +76,14 @@ function vocabPartOfSpeechAndDefinition(){
         alert("The word is not in this dictionary");
     }
     document.getElementById("input").value = "";
+
 };
 enterButton.addEventListener("click", vocabPartOfSpeechAndDefinition);
 
-// enterButton.addEventListener("keypress", function(event){
-//     if(event.key === "Enter"){
-//         event.preventDefault();
-//         enterButton.click();
-//     }
-// });
+enterButton.addEventListener("keypress", function(event){
+    if(event.key === "Enter"){
+        event.preventDefault();
+        document.getElementById("button").click();
+    }
+});
 
