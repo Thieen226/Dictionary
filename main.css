@@ -39,13 +39,15 @@ input, #button{
     margin: 2em;
 }
 .pPartOfSpeech,
-.pDefinition,
-.pElement{
-    font-size: large;
+.pDefinition{
+    font-size: 1.5em;
     text-align: left;
     margin: 2em; 
 }
-
+.pElement{
+    font-size: 1.5em;
+    margin: 2em; 
+}
 
 
 
