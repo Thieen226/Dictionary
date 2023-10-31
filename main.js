@@ -2,8 +2,8 @@ var vocabs = {
     yes: {
         partOfSpeech: "noun",
         definition: [
-             "Used to give an affirmative response.",
-             "Used as a response to someone addressing one or otherwise trying to attract one's attention."
+             "\n 1. Used to give an affirmative response",
+             "\n 2. Used as a response to someone addressing one or otherwise trying to attract one's attention."
     ]
     }, 
     panacea: {
@@ -13,29 +13,29 @@ var vocabs = {
     concatenation: {
         partOfSpeech: "verb",
         definition: [
-            "Cut (something) using a saw.",
-            "Make rapid to-and-fro motions in cutting something or in playing a stringed instrument."
+            "\n 1. Cut (something) using a saw",
+            "\n 2. Make rapid to-and-fro motions in cutting something or in playing a stringed instrument."
         ]
     },
     found: {
         partOfSpeech: "adjective",
         definition: [
-            "Having been discovered by chance or unexpectedly.",
-            "(of a ship) Equipped; Supplied."
+            "\n 1. Having been discovered by chance or unexpectedly",
+            "\n 2. (of a ship) Equipped; Supplied."
         ]
     }, 
     crane: {
         partOfSpeech: "verb",
         definition: [
-            "Stretch out one's body or neck in order to see something.",
-            "Move (a heavy object) with a crane."
+            "\n 1. Stretch out one's body or neck in order to see something",
+            "\n 2. Move (a heavy object) with a crane."
         ]
     },
     minute: {
         partOfSpeech: "noun",
         definition: [
-            "A period of time equal to sixty seconds or a sixtieth of an hour.",
-            "A sixtieth of a degree of angular measurement (symbol: ʹ)"
+            "\n 1. A period of time equal to sixty seconds or a sixtieth of an hour",
+            "\n 2. A sixtieth of a degree of angular measurement (symbol: ʹ)"
         ]
     },
     grotesque: {
