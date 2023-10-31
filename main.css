@@ -11,6 +11,10 @@ section{
     border-radius: 1em;
     background-color: white;
 }
+h1{
+    margin: 2em 0 0;
+    font-size: 2em;
+}
 input{
     width: 30%;
     height: 2em;
@@ -31,3 +35,15 @@ input, #button{
     background-color: #5783db;
     cursor: pointer;
 }
+.container{
+    margin: 2em;
+}
+.pPartOfSpeech,
+.pDefinition,
+.pElement{
+    font-size: large;
+}
+
+
+
+
