@@ -1,5 +1,5 @@
 var vocabs = {
-    yes :{
+    yes: {
         partOfSpeech: "noun",
         definition: {
             1: "Used to give an affirmative response.",
@@ -54,7 +54,7 @@ var vocabs = {
 const enterButton = document.getElementById("button");
 const definitionContainer = document.getElementById("definition");
 
-function vocabDefinition(){
+function vocabPartOfSpeechAndDefinition(){
     const inputVocab = document.getElementById("input").value.toLowerCase();
 
     if(inputVocab == ""){
@@ -62,18 +62,27 @@ function vocabDefinition(){
     }
     else if(vocabs.hasOwnProperty(inputVocab)){
         const container = document.createElement("div");
-        const pElement = document.createElement("p");
+        const pPartOfSpeech = document.createElement("p");
+        const pDefinition = document.createElement("p");
 
         definitionContainer.appendChild(container);
-        container.appendChild(pElement);
+        container.appendChild(pPartOfSpeech);
+        container.appendChild(pDefinition);
         
-        pElement.innerText = vocabs.yes.definition[1];
+        pPartOfSpeech.innerText= "Part of Speech: " + inputVocab.partOfSpeech;
+        pDefinition.innerText=  "Definition: "  + inputVocab.definition;
     }
     else{
         alert("The word is not in this dictionary");
     }
     document.getElementById("input").value = "";
+};
+enterButton.addEventListener("click", vocabPartOfSpeechAndDefinition);
 
-}
-enterButton.addEventListener("click", vocabDefinition);
+// enterButton.addEventListener("keypress", function(event){
+//     if(event.key === "Enter"){
+//         event.preventDefault();
+//         enterButton.click();
+//     }
+// });
 
