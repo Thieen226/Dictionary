@@ -79,6 +79,8 @@ function vocabPartOfSpeechAndDefinition(){
         pPartOfSpeech.innerText= "Part of Speech: " + vocabs[inputVocab].partOfSpeech;
         pDefinition.innerText=  "Definition: "  + vocabs[inputVocab].definition;
 
+
+
         //creating new class for each element
         container.classList.add("container");
         pPartOfSpeech.classList.add("pPartOfSpeech");
