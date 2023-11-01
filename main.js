@@ -1,3 +1,6 @@
+//creating object contains all of the vocabs
+//then a specific word will be an object contain its part of speech and definition
+//then add \n into the array of definition to add a new line of the defintion of that word 
 var vocabs = {
     yes: {
         partOfSpeech: "noun",
@@ -8,7 +11,7 @@ var vocabs = {
     }, 
     panacea: {
         partOfSpeech: "noun",
-        definiton: "An answer or solution for all problems or difficulties"
+        definition: "\n An answer or solution for all problems or difficulties."
     },
     concatenation: {
         partOfSpeech: "verb",
@@ -40,15 +43,15 @@ var vocabs = {
     },
     grotesque: {
         partOfSpeech: "adjective",
-        definition: "Comically or repulsively ugly or distorted."
+        definition: "\n Comically or repulsively ugly or distorted."
     },
     label: {
         partOfSpeech: "noun",
-        definition: "A small piece of paper, fabric, plastic, or similar material attached to an object and giving information about it."
+        definition: "\n A small piece of paper, fabric, plastic, or similar material attached to an object and giving information about it."
     },
     debacle: {
         partOfSpeech: "noun",
-        definition: "A sudden and ignominious failure; a fiasco."
+        definition: "\n A sudden and ignominious failure; a fiasco."
     }
 }
 const enterButton = document.getElementById("button");
