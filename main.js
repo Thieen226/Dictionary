@@ -8,7 +8,7 @@ var vocabs = {
     }, 
     panacea: {
         partOfSpeech: "noun",
-        definiton: "An answer or solution for all problems or difficulties"
+        definiton: ["\n 1. An answer or solution for all problems or difficulties"]
     },
     concatenation: {
         partOfSpeech: "verb",
@@ -40,15 +40,15 @@ var vocabs = {
     },
     grotesque: {
         partOfSpeech: "adjective",
-        definition: "Comically or repulsively ugly or distorted."
+        definition: ["\n 1. Comically or repulsively ugly or distorted."]
     },
     label: {
         partOfSpeech: "noun",
-        definition: "A small piece of paper, fabric, plastic, or similar material attached to an object and giving information about it."
+        definition: ["\n 1. A small piece of paper, fabric, plastic, or similar material attached to an object and giving information about it."]
     },
     debacle: {
         partOfSpeech: "noun",
-        definition: "A sudden and ignominious failure; a fiasco."
+        definition: ["\n 1. A sudden and ignominious failure; a fiasco."]
     }
 }
 const enterButton = document.getElementById("button");
