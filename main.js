@@ -1,3 +1,6 @@
+//creating object contains all of the vocabs
+//then a specific word will be an object contain its part of speech and definition
+//then add \n into the array of definition to add a new line of the defintion of that word 
 var vocabs = {
     yes: {
         partOfSpeech: "noun",
@@ -76,7 +79,7 @@ function vocabPartOfSpeechAndDefinition(){
         //changing the p elements based on the word the user put into the input
         //then it will show Part of Speech, and pull the desired word from the vocabs object and its partOfSpeech
         //for the definition, it will pull the definition of the desired word from the vocabs object
-        pPartOfSpeech.innerText= "Part of Speech: " + vocabs[inputVocab].partOfSpeech;
+        pPartOfSpeech.innerText= "Part of speech: " + vocabs[inputVocab].partOfSpeech;
         pDefinition.innerText=  "Definition: "  + vocabs[inputVocab].definition;
 
 
